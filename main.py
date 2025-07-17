@@ -10,7 +10,7 @@ from modules.machine_tasks import MachineTaskScreen
 from modules.packing import PackingScreen
 from modules.finished_goods import FinishedGoodsScreen
 from modules.wages import WageScreen
-from modules.reports import ReportsScreen   # 👈 New import
+from modules.reports import ReportsScreen  
 
 class MainWindow(QMainWindow):
     def __init__(self):
